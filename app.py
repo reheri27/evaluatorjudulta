@@ -17,8 +17,8 @@ st.title("🎓 Reviewer Judul Skripsi Prodi Sistem Informasi Unpam")
 #st.write("Menggunakan model Llama-3")
 
 # Form Input
-judul_mahasiswa = st.text_input("Judul Tugas Akhir:", placeholder="Contoh: Sistem Informasi Perpustakaan")
-deskripsi_singkat = st.text_area("Deskripsi Singkat:", placeholder="Tujuan sistem ini adalah...")
+judul_mahasiswa = st.text_input("Judul Tugas Akhir:", placeholder="Input Tema/Judul Tugas Akhir")
+deskripsi_singkat = st.text_area("Deskripsi Singkat:", placeholder="Input latar belakang")
 
 # 3. Logika Pemrosesan AI
 if st.button("Analisis Judul", type="primary"):
