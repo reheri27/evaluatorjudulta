@@ -17,7 +17,7 @@ st.title("🎓 Reviewer Judul Skripsi Prodi Sistem Informasi Unpam")
 
 # Form Input
 judul_mahasiswa = st.text_input("Judul Tugas Akhir:", placeholder="Input Tema/Judul Tugas Akhir")
-deskripsi_singkat = st.text_area("Deskripsi Singkat:", placeholder="Input latar belakang/tujuan")
+deskripsi_singkat = st.text_area("Deskripsi Singkat:", placeholder="masalah dan tujuan")
 
 # 3. Logika Pemrosesan AI
 if st.button("Analisis Judul", type="primary"):
