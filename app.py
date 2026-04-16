@@ -3,8 +3,7 @@ from openai import OpenAI
 
 # 1. Konfigurasi OpenRouter
 # Ganti dengan API Key OpenRouter Anda
-OPENROUTER_API_KEY = "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"  # Contoh API Key, pastikan untuk menyimpan dengan aman dan tidak membagikannya secara publik
-
+OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"] 
 # Inisialisasi klien OpenAI yang diarahkan ke server OpenRouter
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
